@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 40px;
+            margin: 0;
             padding: 20px;
             display: flex;
             justify-content: center;
@@ -15,10 +15,12 @@
             text-align: center;
             flex-direction: column;
             background-color: #f9f9f9;
+            min-height: 100vh;
         }
         
         h1, h2, h3, h4 {
             color: #333;
+            text-align: center;
         }
 
         table {
@@ -58,22 +60,24 @@
 
         p {
             line-height: 1.6;
+            text-align: center;
         }
 
-        .date {
+        .date, .content-date {
             font-weight: bold;
             text-align: center;
             font-size: 1.1em;
             margin-top: 10px;
         }
 
-        .content-date {
+        .centered {
             text-align: center;
-            font-size: 1em;
-            margin-top: 5px;
         }
 
-        .centered {
+        /* Ensure that all sections are also aligned at the center */
+        section {
+            width: 80%;
+            margin: 20px auto;
             text-align: center;
         }
     </style>
@@ -85,112 +89,128 @@
     <img src="https://raw.githubusercontent.com/sshyam62/shyam.io/bc85ee3d80da51fcc2bf770c9c9c4626faa4c41b/WhatsApp%20Image%202025-02-09%20at%2012.01.06%20PM.jpeg" alt="Shyam Singh">
 
     <!-- Contact Information -->
-    <h2>Contact Information</h2>
-    <p><strong>Email:</strong> shyam7700@gmail.com</p>
-    <p><strong>Mobile:</strong> +91-7800911013</p>
-    <p><strong>Permanent Address:</strong> M.I.G.-62, Barra-2, Kanpur (UP)</p>
-    <p><strong>Local Address:</strong> M.I.G.-62, Barra-2, Kanpur</p>
+    <section>
+        <h2>Contact Information</h2>
+        <p><strong>Email:</strong> shyam7700@gmail.com</p>
+        <p><strong>Mobile:</strong> +91-7800911013</p>
+        <p><strong>Permanent Address:</strong> M.I.G.-62, Barra-2, Kanpur (UP)</p>
+        <p><strong>Local Address:</strong> M.I.G.-62, Barra-2, Kanpur</p>
+    </section>
 
     <!-- Overview Section -->
-    <h2>Overview</h2>
-    <p>I intend to build a career with a leading corporate in a high-tech environment with committed and dedicated professionals. This will help me to explore myself fully and realize my potential. I am willing to work as a key player in a challenging and creative environment.</p>
+    <section>
+        <h2>Overview</h2>
+        <p>I intend to build a career with a leading corporate in a high-tech environment with committed and dedicated professionals. This will help me to explore myself fully and realize my potential. I am willing to work as a key player in a challenging and creative environment.</p>
+    </section>
 
     <!-- Work Experience -->
-    <h2>Work Experience</h2>
-    <h3>Indian Institute of Technology Kanpur</h3>
-    <h4>Senior Project Associate</h4>
-    <p class="date">July 2022 – Present</p>
-    <ul>
-        <li>Technical Service Management</li>
-        <li>Software & hardware service, Networking solutions, and Data Centre operations</li>
-        <li>Knowledge of Remote Desktop, Team Viewer, etc.</li>
-        <li>Installation and Configuration of Print Server & Client Systems</li>
-        <li>Sharing of Files and Resources on the network</li>
-        <li>Installation and management of Symantec Antivirus on client machines</li>
-        <li>Configuration & managing Network</li>
-        <li>Managing and troubleshooting mail communication (Microsoft Outlook 2003, 2007, Outlook Express)</li>
-        <li>Desktop / Laptop Maintenance & troubleshooting</li>
-    </ul>
+    <section>
+        <h2>Work Experience</h2>
+        <h3>Indian Institute of Technology Kanpur</h3>
+        <h4>Senior Project Associate</h4>
+        <p class="date">July 2022 – Present</p>
+        <ul>
+            <li>Technical Service Management</li>
+            <li>Software & hardware service, Networking solutions, and Data Centre operations</li>
+            <li>Knowledge of Remote Desktop, Team Viewer, etc.</li>
+            <li>Installation and Configuration of Print Server & Client Systems</li>
+            <li>Sharing of Files and Resources on the network</li>
+            <li>Installation and management of Symantec Antivirus on client machines</li>
+            <li>Configuration & managing Network</li>
+            <li>Managing and troubleshooting mail communication (Microsoft Outlook 2003, 2007, Outlook Express)</li>
+            <li>Desktop / Laptop Maintenance & troubleshooting</li>
+        </ul>
 
-    <h3>Indian Institute of Technology Kanpur</h3>
-    <h4>Senior Project Associate</h4>
-    <p class="date">June 2017 – May 2022</p>
-    <ul>
-        <li>Troubleshooting & Maintenance of End User Problems related to LAN, Internet Links</li>
-        <li>Managing and troubleshooting Internet Connectivity & Group Policies</li>
-        <li>Troubleshooting & Maintenance of IP Addressing</li>
-        <li>Installation, Configuration, and Troubleshooting of Printers</li>
-        <li>Managing and troubleshooting mail communication (Microsoft Outlook, Outlook Express, Live Mail)</li>
-        <li>Installation/configuration, operation, and maintenance of hardware and software infrastructure</li>
-        <li>Antivirus Symantec & Microsoft Patch updating management</li>
-        <li>Hardware & Software Inventory Maintenance, Installations, and troubleshooting</li>
-        <li>VMware Virtual Servers/Desktops, DHCP Server & Print Server Maintenance</li>
-    </ul>
+        <h3>Indian Institute of Technology Kanpur</h3>
+        <h4>Senior Project Associate</h4>
+        <p class="date">June 2017 – May 2022</p>
+        <ul>
+            <li>Troubleshooting & Maintenance of End User Problems related to LAN, Internet Links</li>
+            <li>Managing and troubleshooting Internet Connectivity & Group Policies</li>
+            <li>Troubleshooting & Maintenance of IP Addressing</li>
+            <li>Installation, Configuration, and Troubleshooting of Printers</li>
+            <li>Managing and troubleshooting mail communication (Microsoft Outlook, Outlook Express, Live Mail)</li>
+            <li>Installation/configuration, operation, and maintenance of hardware and software infrastructure</li>
+            <li>Antivirus Symantec & Microsoft Patch updating management</li>
+            <li>Hardware & Software Inventory Maintenance, Installations, and troubleshooting</li>
+            <li>VMware Virtual Servers/Desktops, DHCP Server & Print Server Maintenance</li>
+        </ul>
+    </section>
 
     <!-- Education Section -->
-    <h2>Education</h2>
-    <table>
-        <tr>
-            <th>Degree</th>
-            <th>Institute/College</th>
-            <th>University/Board</th>
-            <th>Year</th>
-        </tr>
-        <tr>
-            <td>B.Tech</td>
-            <td>Maharana Pratap Engg. College</td>
-            <td>U.P. Technical University</td>
-            <td class="content-date">2010</td>
-        </tr>
-        <tr>
-            <td>B.Sc</td>
-            <td>Dayanand Brajendra Swarup College</td>
-            <td>CSJM University Kanpur</td>
-            <td class="content-date">2006</td>
-        </tr>
-        <tr>
-            <td>Intermediate</td>
-            <td>Shivaji Inter College, Kanpur</td>
-            <td>Allahabad Board, U.P.</td>
-            <td class="content-date">2003</td>
-        </tr>
-        <tr>
-            <td>High School</td>
-            <td>Sardar Patel Inter College</td>
-            <td>Allahabad Board, U.P.</td>
-            <td class="content-date">2000</td>
-        </tr>
-    </table>
+    <section>
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Degree</th>
+                <th>Institute/College</th>
+                <th>University/Board</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>B.Tech</td>
+                <td>Maharana Pratap Engg. College</td>
+                <td>U.P. Technical University</td>
+                <td class="content-date">2010</td>
+            </tr>
+            <tr>
+                <td>B.Sc</td>
+                <td>Dayanand Brajendra Swarup College</td>
+                <td>CSJM University Kanpur</td>
+                <td class="content-date">2006</td>
+            </tr>
+            <tr>
+                <td>Intermediate</td>
+                <td>Shivaji Inter College, Kanpur</td>
+                <td>Allahabad Board, U.P.</td>
+                <td class="content-date">2003</td>
+            </tr>
+            <tr>
+                <td>High School</td>
+                <td>Sardar Patel Inter College</td>
+                <td>Allahabad Board, U.P.</td>
+                <td class="content-date">2000</td>
+            </tr>
+        </table>
+    </section>
 
     <!-- Professional Qualification Section -->
-    <h2>Professional Qualification</h2>
-    <p>Industrial Automation using PLC</p>
+    <section>
+        <h2>Professional Qualification</h2>
+        <p>Industrial Automation using PLC</p>
+    </section>
 
     <!-- Strengths Section -->
-    <h2>Summary of Strengths</h2>
-    <ul>
-        <li>Strong aptitude for Leadership, Responsibility, and Working under Pressure</li>
-        <li>Problem-Solving, Critical Analysis, Planning, and Implementation skills</li>
-        <li>Expertise in troubleshooting Computer Technology issues</li>
-        <li>Client Operating Systems: Windows XP, Windows 7, Windows 8, Windows 10</li>
-        <li>Mail Servers: Microsoft Outlook Express/Outlook 2003, 2007</li>
-    </ul>
+    <section>
+        <h2>Summary of Strengths</h2>
+        <ul>
+            <li>Strong aptitude for Leadership, Responsibility, and Working under Pressure</li>
+            <li>Problem-Solving, Critical Analysis, Planning, and Implementation skills</li>
+            <li>Expertise in troubleshooting Computer Technology issues</li>
+            <li>Client Operating Systems: Windows XP, Windows 7, Windows 8, Windows 10</li>
+            <li>Mail Servers: Microsoft Outlook Express/Outlook 2003, 2007</li>
+        </ul>
+    </section>
 
     <!-- Personal Details Section -->
-    <h2>Personal Details</h2>
-    <p><strong>Date of Birth:</strong> 27 Nov 1985</p>
-    <p><strong>Father’s Name:</strong> Ram Baran Singh</p>
-    <p><strong>Nationality:</strong> Indian</p>
-    <p><strong>Marital Status:</strong> Married</p>
-    <p><strong>Hobbies:</strong> Reading books & Net surfing</p>
-    <p><strong>Languages Known:</strong> Hindi, English</p>
-    <p><strong>Personal Skills:</strong> Team facilitator, Good communication skills</p>
+    <section>
+        <h2>Personal Details</h2>
+        <p><strong>Date of Birth:</strong> 27 Nov 1985</p>
+        <p><strong>Father’s Name:</strong> Ram Baran Singh</p>
+        <p><strong>Nationality:</strong> Indian</p>
+        <p><strong>Marital Status:</strong> Married</p>
+        <p><strong>Hobbies:</strong> Reading books & Net surfing</p>
+        <p><strong>Languages Known:</strong> Hindi, English</p>
+        <p><strong>Personal Skills:</strong> Team facilitator, Good communication skills</p>
+    </section>
 
     <!-- Declaration Section -->
-    <h2>Declaration</h2>
-    <p>I hereby declare that all the information given above is true to the best of my knowledge and belief.</p>
+    <section>
+        <h2>Declaration</h2>
+        <p>I hereby declare that all the information given above is true to the best of my knowledge and belief.</p>
 
-    <p class="centered"><strong>Date:</strong> (Shyam Singh)</p>
+        <p class="centered"><strong>Date:</strong> (Shyam Singh)</p>
+    </section>
 
 </body>
 </html>
